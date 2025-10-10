@@ -126,10 +126,6 @@ super + t
 #super + g
 #	smerge
 
-# ftp tool
-super + f
-	filezilla
-
 # image editor
 super + i
 	gimp

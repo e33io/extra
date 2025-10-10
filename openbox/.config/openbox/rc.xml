@@ -638,109 +638,59 @@
     <!-- Keybindings for launching applications -->
     <keybind key="W-Return">
       <action name="Execute">
-        <name>kitty</name>
         <command>kitty</command>
       </action>
     </keybind>
     <keybind key="W-S-Return">
       <action name="Execute">
-        <startupnotify>
-          <enabled>yes</enabled>
-          <name>Thunar</name>
-        </startupnotify>
         <command>thunar</command>
       </action>
     </keybind>
     <keybind key="W-b">
       <action name="Execute">
-        <startupnotify>
-          <enabled>yes</enabled>
-          <name>Brave</name>
-        </startupnotify>
         <command>sh -c 'GDK_SCALE=1 brave-browser'</command>
       </action>
     </keybind>
     <keybind key="W-t">
       <action name="Execute">
-        <startupnotify>
-          <enabled>yes</enabled>
-          <name>Mousepad</name>
-        </startupnotify>
         <command>mousepad</command>
       </action>
     </keybind>
     <!--
     <keybind key="W-t">
       <action name="Execute">
-        <startupnotify>
-          <enabled>yes</enabled>
-          <name>Sublime Text</name>
-        </startupnotify>
         <command>subl</command>
       </action>
     </keybind>
     <keybind key="W-g">
       <action name="Execute">
-        <startupnotify>
-          <enabled>yes</enabled>
-          <name>Sublime Merge</name>
-        </startupnotify>
         <command>smerge</command>
       </action>
     </keybind>
     -->
-    <keybind key="W-f">
-      <action name="Execute">
-        <startupnotify>
-          <enabled>yes</enabled>
-          <name>FileZilla</name>
-        </startupnotify>
-        <command>filezilla</command>
-      </action>
-    </keybind>
     <keybind key="W-i">
       <action name="Execute">
-        <startupnotify>
-          <enabled>yes</enabled>
-          <name>GIMP</name>
-        </startupnotify>
         <command>gimp</command>
       </action>
     </keybind>
     <keybind key="W-c">
       <action name="Execute">
-        <startupnotify>
-          <enabled>yes</enabled>
-          <name>Signal App</name>
-        </startupnotify>
         <command>sh -c 'GDK_SCALE=1 signal-desktop'</command>
       </action>
     </keybind>
     <!-- Save fullscreen, active window, or selected area screenshots -->
     <keybind key="Print">
       <action name="Execute">
-        <startupnotify>
-          <enabled>yes</enabled>
-          <name>Screenshot Full Screen</name>
-        </startupnotify>
         <command>screenshot.sh fullscreen</command>
       </action>
     </keybind>
     <keybind key="W-Print">
       <action name="Execute">
-        <startupnotify>
-          <enabled>yes</enabled>
-          <name>Screenshot Window</name>
-        </startupnotify>
         <command>screenshot.sh window</command>
       </action>
     </keybind>
     <keybind key="S-Print">
       <action name="Execute">
-        <startupnotify>
-          <enabled>yes</enabled>
-          <name>Screenshot Selected Area</name>
-        </startupnotify>
         <command>screenshot.sh selection</command>
       </action>
     </keybind>
