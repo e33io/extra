@@ -177,17 +177,17 @@
   </dock>
   <keyboard>
     <chainQuitKey>C-q</chainQuitKey>
-    <!-- Keybinding to exit Openbox -->
+    <!-- Exit Openbox -->
     <keybind key="W-S-e">
       <action name="Exit">
         <prompt>yes</prompt>
       </action>
     </keybind>
-    <!-- Keybinding to restart Openbox -->
+    <!-- Restart Openbox -->
     <keybind key="W-S-r">
       <action name="Restart"/>
     </keybind>
-    <!-- Keybindings to select desktop -->
+    <!-- Select specific desktop -->
     <keybind key="W-1">
       <action name="GoToDesktop">
         <to>1</to>
@@ -233,7 +233,7 @@
         <to>9</to>
       </action>
     </keybind>
-    <!-- Keybindings to switch to next/previous desktop -->
+    <!-- Switch to next/previous desktop -->
     <keybind key="C-A-Left">
       <action name="GoToDesktop">
         <to>previous</to>
@@ -246,7 +246,7 @@
         <wrap>yes</wrap>
       </action>
     </keybind>
-    <!-- Keybindings to send window to select desktop -->
+    <!-- Send window to specific desktop -->
     <keybind key="W-S-1">
       <action name="SendToDesktop">
         <to>1</to>
@@ -292,7 +292,7 @@
         <to>9</to>
       </action>
     </keybind>
-    <!-- Keybindings to send window to next/previous desktop -->
+    <!-- Send window to next/previous desktop -->
     <keybind key="W-S-Left">
       <action name="SendToDesktop">
         <to>previous</to>
@@ -305,7 +305,7 @@
         <wrap>yes</wrap>
       </action>
     </keybind>
-    <!-- Keybindings to move window -->
+    <!-- Move window -->
     <keybind key="W-C-Right">
       <action name="MoveRelative">
         <x>100</x>
@@ -330,7 +330,7 @@
         <y>100</y>
       </action>
     </keybind>
-    <!-- Keybindings to change window size -->
+    <!-- Resize window -->
     <keybind key="C-S-Right">
       <action name="ResizeRelative">
         <right>50</right>
@@ -351,7 +351,7 @@
         <bottom>50</bottom>
       </action>
     </keybind>
-    <!-- Keybindings to switch window focus -->
+    <!-- Switch window focus -->
     <keybind key="A-Tab">
       <action name="NextWindow">
         <finalactions>
@@ -388,17 +388,17 @@
         </finalactions>
       </action>
     </keybind>
-    <!-- Keybinding to move window to bottom of stack -->
+    <!-- Move window to bottom of stack -->
     <keybind key="A-Escape">
       <action name="Lower"/>
       <action name="FocusToBottom"/>
       <action name="Unfocus"/>
     </keybind>
-    <!-- Keybinding to toggle hide all windows -->
+    <!-- Toggle hide all windows -->
     <keybind key="W-S-d">
       <action name="ToggleShowDesktop"/>
     </keybind>
-    <!-- Keybindings for window controls -->
+    <!-- Window controls -->
     <keybind key="W-S-q">
       <action name="Close"/>
     </keybind>
@@ -407,15 +407,15 @@
         <menu>client-menu</menu>
       </action>
     </keybind>
-    <!-- Keybinding to toggle maximize/unmaximize window -->
+    <!-- Toggle maximize/unmaximize window -->
     <keybind key="W-S-m">
       <action name="ToggleMaximize"/>
     </keybind>
-    <!-- Keybinding to toggle fullscreen window -->
+    <!-- Toggle fullscreen window -->
     <keybind key="W-S-f">
       <action name="ToggleFullscreen"/>
     </keybind>
-    <!-- Keybinding to center window -->
+    <!-- Center window -->
     <keybind key="W-S-space">
       <action name="Unmaximize"/>
       <action name="MoveResizeTo">
@@ -423,7 +423,7 @@
         <y>center</y>
       </action>
     </keybind>
-    <!-- Keybindings for window tiling -->
+    <!-- Window tiling -->
     <keybind key="W-Left">
       <action name="If">
         <query>
@@ -520,122 +520,105 @@
         </else>
       </action>
     </keybind>
-    <!-- Keybindings for Rofi menus -->
+    <!-- Rofi menus -->
     <keybind key="W-d">
       <action name="Execute">
-        <name>Rofi Menu</name>
         <command>rofi -show drun</command>
       </action>
     </keybind>
     <keybind key="W-p">
       <action name="Execute">
-        <name>Rofi Power</name>
         <command>rofi-power.sh</command>
       </action>
     </keybind>
     <keybind key="W-o">
       <action name="Execute">
-        <name>Rofi Windows</name>
         <command>rofi -show window</command>
       </action>
     </keybind>
-    <!-- Keybinding Lock screen (session) -->
+    <!-- Lock screen (session) -->
     <keybind key="W-x">
       <action name="Execute">
-        <name>Lock Session</name>
         <command>loginctl lock-session</command>
       </action>
     </keybind>
     <!-- Disable dpms to keep session awake (like Caffeine) -->
     <keybind key="W-C-equal">
       <action name="Execute">
-        <name>Stay Awake ON</name>
         <command>stay-awake.sh on</command>
       </action>
     </keybind>
     <!-- Re-enable dpms to resume screen blanking and locking -->
     <keybind key="W-C-minus">
       <action name="Execute">
-        <name>Stay Awake OFF</name>
         <command>stay-awake.sh off</command>
       </action>
     </keybind>
-    <!-- Keybindings for media controls -->
+    <!-- Media controls -->
     <keybind key="XF86AudioPrev">
       <action name="Execute">
-        <name>Media Previous</name>
         <command>playerctl --all-players previous</command>
       </action>
     </keybind>
     <keybind key="XF86AudioPlay">
       <action name="Execute">
-        <name>Media Play/Pause</name>
         <command>playerctl --all-players play-pause</command>
       </action>
     </keybind>
     <keybind key="XF86AudioNext">
       <action name="Execute">
-        <name>Media Next</name>
         <command>playerctl --all-players next</command>
       </action>
     </keybind>
     <keybind key="C-Left">
       <action name="Execute">
-        <name>Media Previous</name>
         <command>playerctl --all-players previous</command>
       </action>
     </keybind>
     <keybind key="C-Down">
       <action name="Execute">
-        <name>Media Play/Pause</name>
         <command>playerctl --all-players play-pause</command>
       </action>
     </keybind>
     <keybind key="C-Right">
       <action name="Execute">
-        <name>Media Next</name>
         <command>playerctl --all-players next</command>
       </action>
     </keybind>
-    <!-- Keybindings for volume controls -->
+    <!-- Volume controls -->
     <keybind key="XF86AudioMute">
       <action name="Execute">
-        <name>Volume Mute</name>
         <command>pactl set-sink-mute @DEFAULT_SINK@ toggle</command>
       </action>
     </keybind>
     <keybind key="XF86AudioRaiseVolume">
       <action name="Execute">
-        <name>Volume Up</name>
         <command>pactl set-sink-volume @DEFAULT_SINK@ +5%</command>
       </action>
     </keybind>
     <keybind key="XF86AudioLowerVolume">
       <action name="Execute">
-        <name>Volume Down</name>
         <command>pactl set-sink-volume @DEFAULT_SINK@ -5%</command>
       </action>
     </keybind>
+    <!-- Send notication of music that's now playing -->
     <keybind key="W-m">
       <action name="Execute">
-        <name>Music Now Playing</name>
         <command>now-playing.sh</command>
       </action>
     </keybind>
-    <!-- Keybindings for monitor brightness controls -->
+    <!-- Monitor brightness controls -->
     <keybind key="XF86MonBrightnessUp">
       <action name="Execute">
-        <name>Brightness Up</name>
         <command>brightness.sh up</command>
       </action>
     </keybind>
     <keybind key="XF86MonBrightnessDown">
       <action name="Execute">
-        <name>Brightness Down</name>
         <command>brightness.sh down</command>
       </action>
     </keybind>
-    <!-- Keybindings for launching applications -->
+    <!-- Launching applications -->
     <keybind key="W-Return">
       <action name="Execute">
         <command>kitty</command>
