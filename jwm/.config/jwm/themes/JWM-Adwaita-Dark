@@ -34,10 +34,10 @@
         </Active>
         <Minimized>
             <Foreground>#eeeeee</Foreground>
-            <Background>#353535</Background>
+            <Background>#4f4f4f</Background>
         </Minimized>
         <Foreground>#eeeeee</Foreground>
-        <Background>#353535</Background>
+        <Background>#4f4f4f</Background>
     </TaskListStyle>
     <PagerStyle>
         <Foreground>#6a6a6a</Foreground>
