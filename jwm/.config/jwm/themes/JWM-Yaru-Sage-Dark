@@ -28,19 +28,21 @@
     </TrayStyle>
     <TaskListStyle list="all">
         <Font>Sans-8</Font>
-        <Foreground>#eeeeee</Foreground>
-        <Background>#4a4a4a</Background>
-        <Outline>#2f2f2f</Outline>
         <Active>
             <Foreground>#ffffff</Foreground>
             <Background>#657b69</Background>
-            <Outline>#2f2f2f</Outline>
         </Active>
+        <Minimized>
+            <Foreground>#eeeeee</Foreground>
+            <Background>#4a4a4a</Background>
+        </Minimized>
+        <Foreground>#eeeeee</Foreground>
+        <Background>#4a4a4a</Background>
     </TaskListStyle>
     <PagerStyle>
         <Foreground>#787878</Foreground>
         <Background>#2f2f2f</Background>
-        <Outline>#000000</Outline>
+        <Outline>#0f0f0f</Outline>
         <Text>#eeeeee</Text>
         <Active>
             <Foreground>#839987</Foreground>
