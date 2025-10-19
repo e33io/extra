@@ -122,7 +122,7 @@
     <!-- Launch Rofi power menu (lock, logout, reboot, shutdown) -->
     <Key mask="4" key="p">exec:rofi-power.sh</Key>
 
-    <!-- Lock screen (session) with loginctl (to activate xss-lock) -->
+    <!-- Lock screen (session) -->
     <Key mask="4" key="x">exec:loginctl lock-session</Key>
 
     <!-- Disable dpms to keep session awake (like Caffeine) -->
