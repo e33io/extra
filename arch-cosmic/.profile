@@ -9,3 +9,8 @@ fi
 if [ -d "$HOME/.local/bin" ]; then
     PATH="$HOME/.local/bin:$PATH"
 fi
+
+# Set Qt app scaling
+export QT_AUTO_SCREEN_SET_FACTOR=0
+export QT_SCALE_FACTOR=1
+export QT_FONT_DPI=96
