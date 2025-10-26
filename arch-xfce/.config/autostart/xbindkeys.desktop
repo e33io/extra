@@ -2,7 +2,7 @@
 Version=1.0
 Type=Application
 Name=xbindkeys
-Comment=Start xbindkeys
+Comment=Custom keybindings
 Exec=xbindkeys
 StartupNotify=false
 Terminal=false
