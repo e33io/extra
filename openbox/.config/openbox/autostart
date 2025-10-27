@@ -27,11 +27,8 @@ sleep 1; xset dpms 300 300 300 &
 # Start dunst for notifications
 dunst &
 
-# Start xwallpaper to set desktop background
-sleep 0.1; xwallpaper --zoom /usr/share/wallpapers/background-0.png &
-
 # Start xsetroot for desktop bg color
-#xsetroot -solid "#202a36" &
+xsetroot -solid "#202a36" &
 
 # Start xbindkeys to mod keybindings
 #xbindkeys &
