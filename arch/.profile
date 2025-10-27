@@ -14,8 +14,6 @@ fi
 if [ ! -t 0 ]; then
     # Load ~/.Xresources
     xrdb ~/.Xresources &
-    # Run xsetroot (desktop bg color)
-    xsetroot -solid "#202a36"
     # Run xssproxy
     xssproxy &
 fi

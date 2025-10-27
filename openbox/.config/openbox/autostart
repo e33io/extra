@@ -32,3 +32,6 @@ dunst &
 
 # Start at-spi d-bus
 #/usr/lib/at-spi-bus-launcher --launch-immediately &
+
+# Start xsetroot for desktop bg color
+xsetroot -solid "#202a36"
