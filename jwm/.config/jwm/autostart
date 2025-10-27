@@ -26,6 +26,9 @@ sleep 1; xset dpms 300 300 300 &
 # Start dunst for notifications
 dunst &
 
+# Start xwallpaper to set desktop background
+xwallpaper --zoom /usr/share/wallpapers/background-0.png &
+
 # Start xbindkeys to mod keybindings
 #xbindkeys &
 
