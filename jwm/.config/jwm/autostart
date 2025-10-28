@@ -26,8 +26,8 @@ sleep 1; xset dpms 300 300 300 &
 # Start dunst for notifications
 dunst &
 
-# Start feh to set desktop background
-sleep 0.1; feh --bg-fill /usr/share/wallpapers/background-0.png &
+# Start feh to set desktop background image
+sleep 0.1; $HOME/.fehbg &
 
 # Start xbindkeys to mod keybindings
 #xbindkeys &
