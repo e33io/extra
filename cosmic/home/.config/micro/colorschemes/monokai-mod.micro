@@ -1,5 +1,5 @@
 # Monokai Mod - Micro editor theme
-# URL: https://github.com/e33io/core/blob/main/.config/micro/colorschemes/monokai-mod.micro
+# URL: https://github.com/e33io/core/blob/main/home/.config/micro/colorschemes/monokai-mod.micro
 
 color-link color-column        "#262626"
 color-link comment             "italic #69676c"
