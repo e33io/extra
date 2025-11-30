@@ -1,9 +1,9 @@
-# extra
+# extra (dotfiles)
 
 linux configuration files
 
 ### Notes
-- configs specific to [COSMIC](https://github.com/e33io/extra/tree/main/csomic) and [Xfce](https://github.com/e33io/extra/tree/main/xfce) are in their own sub-directories
+- configs specific to [COSMIC](https://github.com/e33io/extra/tree/main/cosmic) and [Xfce](https://github.com/e33io/extra/tree/main/xfce) are in their own sub-directories
 - Xfce configs are based on using HiDPI monitors (192 dpi settings)
 - font settings are configured to use [Inter](https://rsms.me/inter) and [SovranMono](https://github.com/e33io/sovran-fonts/tree/main/SovranMono) fonts
 - custom keybindings for [Xfce](https://github.com/e33io/reference-wiki/blob/main/keybindings/xfce-keybindings.md)
