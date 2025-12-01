@@ -21,7 +21,6 @@
 			<Filename>thunar-bulk-rename.desktop</Filename>
 			<Filename>cava-audio.desktop</Filename>
 			<Filename>cmatrix.desktop</Filename>
-			<Filename>engrampa.desktop</Filename>
 			<Filename>xfce4-file-manager.desktop</Filename>
 			<Filename>galculator.desktop</Filename>
 			<Filename>micro.desktop</Filename>
@@ -32,6 +31,7 @@
 			<Filename>thunar.desktop</Filename>
 			<Filename>mintstick.desktop</Filename>
 			<Filename>mintstick-format.desktop</Filename>
+			<Filename>xarchiver.desktop</Filename>
 			<Merge type="files" />
 		</Layout>
 	</Menu>
