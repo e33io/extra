@@ -230,6 +230,7 @@
 			<Filename>xfce-backdrop-settings.desktop</Filename>
 			<Filename>xfce-display-settings.desktop</Filename>
 			<Filename>xfce-keyboard-settings.desktop</Filename>
+			<Filename>kvantummanager.desktop</Filename>
 			<Filename>lightdm-gtk-greeter-settings.desktop</Filename>
 			<Filename>menulibre.desktop</Filename>
 			<Filename>xfce-mouse-settings.desktop</Filename>
