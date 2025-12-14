@@ -5,31 +5,22 @@ detect:
     header: "<\\?xml.*\\?>"
 
 rules:
-    # doctype
     - preproc:
         start: "<!DOCTYPE"
         end: "[/]?>"
         rules: []
 
-    # brackets, punctuation and symbols
-    - statement: "[\\[\\](){}@&/.,:;*=_\\-\\+]"
-
-    # comments
     - comment:
         start: "<!--"
         end: "-->"
         rules: []
 
-    # between tags
-    - identifier: "[\\<a-zA-Z0-9#]"
-
-    # tag options
-    - symbol.tag:
+    - statement:
         start: "<\\??"
         end: "\\??>"
         rules:
             - type:
-                start: "[[:space:]]"
+                start: " "
                 end: "="
                 rules: []
             - constant.string:
@@ -45,14 +36,13 @@ rules:
                 rules:
                     - constant.specialChar: "\\\\."
 
-    # quoted strings
     - constant.string:
         start: "\""
-        skip: "\\\\."
         end: "\""
+        skip: "\\."
         rules: []
     - constant.string:
         start: "'"
-        skip: "\\\\."
         end: "'"
+        skip: "\\."
         rules: []
