@@ -15,7 +15,7 @@ shopt -s histappend
 shopt -s checkwinsize
 
 # Use bash-completion, if available
-[[ $PS1 && -f /usr/share/bash-completion/bash_completion ]] && \
+[ -n "$PS1" ] && [ -f /usr/share/bash-completion/bash_completion ] && \
     . /usr/share/bash-completion/bash_completion
 
 # Make less more friendly for non-text input files
