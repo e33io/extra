@@ -1,8 +1,6 @@
 ## Key Bindings
 
-`Alt-\`: `command:tree` open/close file tree (filemanager)
-
-`Alt-q`: `lua:initlua.quitAllOther` quit all other panes (splits) except active pane
+`Alt-/`: `lua:comment.comment` comment out line
 
 `Alt-o`: `command:fzf` open fzf file search
 
