@@ -3,10 +3,7 @@
 linux configuration files
 
 ### Notes
-- configs specific to [COSMIC](https://github.com/e33io/extra/tree/main/cosmic) and [Xfce](https://github.com/e33io/extra/tree/main/xfce) are in their own sub-directories
-- font settings are configured to use [Inter](https://rsms.me/inter) and [SovranMono](https://github.com/e33io/sovran-fonts/tree/main/SovranMono) fonts
-- custom keybindings for [Xfce](https://github.com/e33io/reference-wiki/blob/main/keybindings/xfce-keybindings.md)
-- configs in [`misc`](https://github.com/e33io/extra/blob/main/misc) directory are for other apps and theme mods
+- configs for [Xfce](https://github.com/e33io/extra/tree/main/xfce)
 
 ### Links
 - view my [core](https://github.com/e33io/core) dotfiles repo
