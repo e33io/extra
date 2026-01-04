@@ -3,8 +3,6 @@
 # =============================================================================
 # Window Control - move, resize, or center active window
 # -----------------------------------------------------------------------------
-# NOTE: requires xdotool, xwininfo, xdpyinfo and wmctrl
-# -----------------------------------------------------------------------------
 # Usage: window-control.sh <command>
 # Commands:
 #   move-right     Move window right by 100 px
